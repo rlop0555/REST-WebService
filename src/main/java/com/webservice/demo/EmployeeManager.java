@@ -26,4 +26,8 @@ public class EmployeeManager {
         return list.getEmployees();
     }
 
+    public void addEmployee( Employee newemployee ){
+        list.addEmployee(newemployee);
+    }
+
 }
